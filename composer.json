@@ -1,0 +1,26 @@
+{
+  "name": "mcw/staffelpreise-ab",
+  "description": "Zeigt bei den Staffelpreisen 'ab' an, anstatt 'bis'",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Martina C Wieser"
+    }
+  ],
+  "require": {
+    "shopware/core": ">=6.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mcw\\StaffelpreiseAb\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "Mcw\\StaffelpreiseAb\\McwStaffelpreiseAb",
+    "label": {
+      "de-DE": "Zeigt bei den Staffelpreisen 'ab' an, anstatt 'bis'",
+      "en-GB": "Zeigt bei den Staffelpreisen 'ab' an, anstatt 'bis'"
+    }
+  }
+}
